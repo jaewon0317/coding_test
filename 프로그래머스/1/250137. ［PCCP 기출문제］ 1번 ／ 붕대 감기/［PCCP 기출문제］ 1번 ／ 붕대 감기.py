@@ -12,8 +12,6 @@ def solution(bandage, health, attacks):
     attack_time= [] 
     for attack in attacks:
         attack_time.append(attack[0])
-    print(attack_time)
-    print(max_time)
    
     attack_num = 0
     skill_time_count = 0 
